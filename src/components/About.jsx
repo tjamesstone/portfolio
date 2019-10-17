@@ -3,8 +3,8 @@ import './About.scss'
 
 function OtherPage() {
   return (
-    <div className="otherpage">
-      About
+    <div className="about">
+      <h1>About</h1>
     </div>
   );
 }

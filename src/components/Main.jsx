@@ -4,9 +4,9 @@ import './Main.scss'
 function Main() {
   return (
     <div className="main">
+        <h1>Tate J Stone</h1>
         
-      Main
-    </div>
+    </div>  
   );
 }
 
