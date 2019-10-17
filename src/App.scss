@@ -8,5 +8,10 @@ $light: #F2F2F2;
 
 .App{
     background-color: $green1;
-    height: 100vh;
+    h1{
+        color: $dark;
+    }
+    margin-top: 0;
+    background: $green1;
+
 }
