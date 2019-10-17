@@ -1,5 +1,5 @@
 import React from 'react';
-import './OtherPage.scss'
+import './About.scss'
 
 function OtherPage() {
   return (
