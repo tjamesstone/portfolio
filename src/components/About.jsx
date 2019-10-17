@@ -4,7 +4,7 @@ import './About.scss'
 function OtherPage() {
   return (
     <div className="otherpage">
-      OtherPage
+      About
     </div>
   );
 }

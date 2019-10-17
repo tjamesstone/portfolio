@@ -1,10 +1,19 @@
 import React from 'react';
 import './HomePage.scss'
+import About from './About'
+import Contact from './Contact'
+import Projects from './Projects'
+import Stack from './Stack'
+import Main from './Main'
 
 function HomePage() {
   return (
     <div className="homepage">
-      HomePage
+      <Main />
+      <About />
+      <Projects />
+      <Stack />
+      <Contact />
     </div>
   );
 }
