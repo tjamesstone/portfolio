@@ -10,7 +10,14 @@
         width: 3rem;
         height: 3rem;
     }
+    p:hover{
+        cursor: pointer;
+        color: white;
+    }
+    
+
 }
+
 .options{
     display: flex;
     flex-direction: row;
