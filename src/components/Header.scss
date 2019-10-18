@@ -14,6 +14,7 @@
     width: 100%;
     margin-top: -10vh;
     background: $dark;
+    font-family: 'Montserrat Alternates', sans-serif;
     img {
         width: 5rem;
         height: auto;
@@ -21,16 +22,18 @@
     p:hover{
         cursor: pointer;
         color: white;
+        text-decoration: underline;
     }
     h1{
         color: $green1;
         font-size: 3.5rem;
         margin: 0;
         padding-bottom: .5rem;
+        
     }
     h1:hover{
         cursor: pointer;
-        color: $green2;
+        zoom: 1.03;
     }
 
 }
