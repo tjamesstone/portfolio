@@ -13,31 +13,31 @@
     }
 }
 .picture{
-    background: url('../assets/IMG_1737.png');
+    background: pink;
     background-size: cover;
     height: 20rem;
     width: 20rem;
     overflow: hidden;
     animation: picture-changer;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    
+    .picture1{
+        width: 20rem;
+        height: 20rem;
+        animation: picture-changer 4s linear 0 infinite;
+        z-index: 1;
+        opacity: 0;
+    }
+    .picture2{
+        z-index: 2;
+    }
 }
 
-@keyframes picture-changer{
+@keyframes picture-changer1{
     0%{
-        background: url('../assets/IMG_1737.png');
-    }
-    20%{
-        background: url('../assets/1-1.png')
-    }
-    40%{
-        background: url('../assets/IMG_2037.png');
-    }
-    60%{
-        background: url('../assets/IMG_1966.png');
+        opacity: 1;
     }
     100%{
-        background: url('../assets/IMG_2471.png');
+        opacity: 0;
     }
+    
 }
