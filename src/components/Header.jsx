@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Header.scss'
-import logo from '../assets/IMG_0835.PNG'
 
 class Header extends Component{
   constructor() {
@@ -13,7 +12,7 @@ class Header extends Component{
   render(){
   return (
     <div className="header">
-        <img className='logo' src={logo} alt="logo"/>
+        <h1 className='tjs'>tjs</h1>
         <div className="options">
             <p>Main</p>
             <p>About</p>

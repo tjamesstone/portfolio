@@ -22,7 +22,16 @@
         cursor: pointer;
         color: white;
     }
-    
+    h1{
+        color: $green1;
+        font-size: 3.5rem;
+        margin: 0;
+        padding-bottom: .5rem;
+    }
+    h1:hover{
+        cursor: pointer;
+        color: $green2;
+    }
 
 }
 
@@ -35,4 +44,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
     
+}
+.tjs{
+    border-radius: 50%;
 }
