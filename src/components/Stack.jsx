@@ -16,11 +16,12 @@ function Stack() {
     <div className="stack">
       <h1>Skills</h1>
       <div className="images">
-        <div className="container">
-          <img className='css3' src={css3} alt="css3"/>
-          <p>CSS3</p>
+        <div className="cssoutside" >
+          <div className="inside">
+            <p>CSS3</p>
+          </div>
         </div>
-        <div className="container">
+        <div className="htmlcontainer">
           <img className='html5' src={html5} alt="html5"/>
           <p>HTML5</p>
         </div>

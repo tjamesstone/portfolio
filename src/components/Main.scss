@@ -11,28 +11,41 @@
     h1{
         margin: 0 auto;
     }
+    .animated{
+        border-right: solid 3px $dark;
+        white-space: nowrap;
+        overflow: hidden;    
+        font-size: 20px;
+        font-weight: bold;
+        color: $dark;
+        animation: animated-text 4s steps(29,end) 2s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+    }
 }
 .picture{
-    background: pink;
-    background-size: cover;
-    height: 20rem;
-    width: 20rem;
     overflow: hidden;
-    
-    .picture1{
-        width: 19rem;
-        height: 20rem;
-        animation: picture-changer 4s linear 0 infinite;
+    position: relative;
+    width: 15rem;
+    img{
+        margin: 0 auto;
+        position: relative;
+        object-fit: contain;
+        border-radius: 3%;
     }
-    
 }
 
-@keyframes picture-changer{
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-    
+.othertext{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
 }
+
+@keyframes animated-text{
+    from{width: 0px;}
+    to{width: 560px;}
+  }
+@keyframes animated-cursor{
+    from{border-right-color: $dark;}
+    to{border-right-color: transparent;}
+  }
