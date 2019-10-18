@@ -9,7 +9,35 @@
     font-family: 'Montserrat Alternates', sans-serif;
     height: 90vh;
     h1{
-        font-size: 125px;
         margin: 0 auto;
+    }
+}
+.picture{
+    background: url('../assets/IMG_1737.png');
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    overflow: hidden;
+    animation: picture-changer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes picture-changer{
+    0%{
+        background: url('../assets/IMG_1737.png');
+    }
+    20%{
+        background: url('../assets/1-1.png')
+    }
+    40%{
+        background: url('../assets/IMG_2037.png');
+    }
+    60%{
+        background: url('../assets/IMG_1966.png');
+    }
+    100%{
+        background: url('../assets/IMG_2471.png');
     }
 }
