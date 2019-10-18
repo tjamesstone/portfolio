@@ -14,3 +14,12 @@
         margin: 0 auto;
     }
 }
+.images{
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 4rem;
+        height: 4rem;
+       
+    }
+}
