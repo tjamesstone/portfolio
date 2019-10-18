@@ -14,10 +14,10 @@ class Header extends Component{
     <div className="header">
         <h1 className='tjs'>tjs</h1>
         <div className="options">
-            <p>Main</p>
+            <p>Home</p>
             <p>About</p>
             <p>Projects</p>
-            <p>Stack</p>
+            <p>Skills</p>
             <p>Contact</p>
         </div>
     </div>

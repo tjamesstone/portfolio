@@ -41,6 +41,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 10px;
         p{
             margin: 0;
             font-weight: bolder;
@@ -53,7 +54,7 @@
 
 }
 .inside:hover{
-    opacity: .6;
+    opacity: .8;
     p{
         opacity: 1;
     }
