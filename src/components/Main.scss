@@ -18,21 +18,16 @@
     height: 20rem;
     width: 20rem;
     overflow: hidden;
-    animation: picture-changer;
     
     .picture1{
         width: 20rem;
         height: 20rem;
         animation: picture-changer 4s linear 0 infinite;
-        z-index: 1;
-        opacity: 0;
     }
-    .picture2{
-        z-index: 2;
-    }
+    
 }
 
-@keyframes picture-changer1{
+@keyframes picture-changer{
     0%{
         opacity: 1;
     }
