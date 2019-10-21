@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Header.scss'
+import {Link} from 'react-router-dom'
 
 class Header extends Component{
   constructor() {
@@ -14,11 +15,11 @@ class Header extends Component{
     <div className="header">
         <h1 className='tjs'>tjs</h1>
         <div className="options">
-            <p>Home</p>
-            <p>About</p>
-            <p>Projects</p>
-            <p>Skills</p>
-            <p>Contact</p>
+          <a href="#home"><p>Home</p> </a>
+          <a href="#about"><p>About</p></a>
+          <a href="#projects"><p>Projects</p></a>
+          <a href="#skills"><p>Skills</p> </a>
+          <a href="#contact"><p>Contact</p></a>
         </div>
     </div>
   )};

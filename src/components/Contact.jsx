@@ -6,7 +6,7 @@ import github from '../assets/img_326384.png'
 
 function Contact() {
   return (
-    <div className="Contact">
+    <div id='contact' className="Contact">
       <h1>Contact</h1>
       <div className="contactoptions">
           <div className="email">

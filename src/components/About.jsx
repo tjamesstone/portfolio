@@ -5,7 +5,7 @@ import BYU from '../assets/byu2.png'
 
 function OtherPage() {
   return (
-    <div className="about">
+    <div id='about' className="about">
       
       <div className="bio">
       <h1>About</h1>

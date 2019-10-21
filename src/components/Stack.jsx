@@ -4,7 +4,7 @@ import './Stack.scss'
 
 function Stack() {
   return (
-    <div className="stack">
+    <div id='skills' className="stack">
       <h1>Skills</h1>
       <div className="images">
         <div className="cssoutside" >
