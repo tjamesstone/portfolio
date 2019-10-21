@@ -18,10 +18,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    height: 75%;
+    max-height: 75%;
+    overflow: hidden;
     img{
         width: 8rem;
         height: 8rem;
     }
+    
 }
 .cssoutside{
     background: url('../assets/css3.png');
@@ -29,29 +36,104 @@
     width: 8rem;
     height: 8rem;
     padding: 0;
+    margin: 1rem auto;
+}
+.htmloutside{
+    background: url('../assets/html5.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.sassoutside{
+    background: url('../assets/sass.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.javascriptoutside{
+    background: url('../assets/javascript.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.reactoutside{
+    background: url('../assets/reactjs.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.nodeoutside{
+    background: url('../assets/nodejs.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.postgressqloutside{
+    background: url('../assets/postgressql.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.gitoutside{
+    background: url('../assets/git.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.salesforceoutside{
+    background: url('../assets/sf2.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.zoutside{
+    background: url('../assets/z.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+    margin: 1rem auto;
+}
+.inside{
+    opacity: 0;
+    filter: grayscale(1);
+    background: grey;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
-    .inside{
-        opacity: 0;
-        filter: grayscale(1);
-        background: grey;
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        p{
-            margin: 0;
-            font-weight: bolder;
-            font-size: 20px;
-            border-top: 1px solid black;
-            border-bottom: 1px solid black;
-            
-        }
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    p{
+        margin: 0;
+        font-weight: bolder;
+        font-size: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        
     }
-
 }
 .inside:hover{
     opacity: .8;
