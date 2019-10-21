@@ -2,10 +2,11 @@
 
 .homepage{
     height: 100vh;
-margin-top: 10vh;
+// padding-top: 10vh;
 overflow: hidden;
 overflow-y: scroll;
 scroll-behavior: smooth;
+z-index: 0;
 h1{
     color: $dark;
     font-size: 100px;

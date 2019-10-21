@@ -12,7 +12,7 @@ class Header extends Component{
   render(){
   return (
     <div className="header">
-        <h1 className='tjs'>tjs</h1>
+      <a href="#home"><h1 className='tjs'>tjs</h1></a>
         <div className="options">
           <a href="#home"><p>Home</p> </a>
           <a href="#about"><p>About</p></a>

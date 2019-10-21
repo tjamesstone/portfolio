@@ -2,7 +2,6 @@ import React from 'react';
 import './About.scss'
 import DevMtn from '../assets/devbanner.png'
 import BYU from '../assets/byu2.png'
-import Header from './Header'
 
 function OtherPage() {
   return (
