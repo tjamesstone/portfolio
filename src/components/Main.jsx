@@ -6,6 +6,7 @@ import picture4 from '../assets/4.png';
 import picture5 from '../assets/5.png';
 import picture7 from '../assets/7.png';
 import Slider from 'react-slick';
+import Header from './Header'
 
 function Main() {
   const settings = {
@@ -20,7 +21,9 @@ function Main() {
     autoplaySpeed: 3000
   }
   return (
+
     <div id='home' className="main">
+      <Header/>
         <h1>Tate J Stone</h1>
         <p className='animated' >I'm all about tech, startups, and data. Let's get to work!</p>
         <div className="picture">

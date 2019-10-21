@@ -2,11 +2,11 @@ import React from 'react';
 import './About.scss'
 import DevMtn from '../assets/devbanner.png'
 import BYU from '../assets/byu2.png'
+import Header from './Header'
 
 function OtherPage() {
   return (
     <div id='about' className="about">
-      
       <div className="bio">
       <h1>About</h1>
         <h3>Bio</h3>
