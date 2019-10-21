@@ -34,7 +34,7 @@ function Main() {
             <img className='picture7' src={picture7} alt="picture7"/>
           </Slider>
         </div>
-        <p className='othertext' >I'm also a real person, and outside of work you'll find me with my family, following up on our monthly budget, and exercising.</p>
+        <p className='othertext' >Outside of work you'll find me with my family, following up on our monthly budget, and exercising.</p>
 
     </div>  
   );
