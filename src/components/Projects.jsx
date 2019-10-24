@@ -8,14 +8,14 @@ function Projects() {
       <h1>Projects</h1>
       <div className="theprojects">
         <div className="project1">
-            <img src={createacontract} alt="project1"/>
-            <h6>Create A Contract</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis commodi sapiente tempore vitae minima, quos aperiam voluptatibus molestias, praesentium, laudantium officia accusantium adipisci cum repellat laboriosam. Deleniti sed repellat voluptatum.</p>
+          <a href="https://create-a-contract.com"><img src={createacontract} alt="project1"/></a>
+          <a href="https://create-a-contract.com">            <h6>Create A Contract</h6></a>
+            <p>Create A Contract allows you to create legally-binding template contracts for your company and then save them as a PDF. </p>
         </div>
         <div className="project2">
             <img src={createacontract} alt="project2"/>
             <h6>Group Project</h6>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ea architecto numquam assumenda consequatur doloribus debitis, tempore, sed molestias harum dignissimos eius, molestiae praesentium sit illo veniam eum dolores fuga!</p>
+            <p>This group project is awesome and you should take a look, I did great work and I'm proud of it too. thanks for looking</p>
         </div>
       </div>
     </div>

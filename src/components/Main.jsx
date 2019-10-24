@@ -25,8 +25,11 @@ function Main() {
       <div className="tenhigh">
         
       </div>
-        <h1>Tate J Stone</h1>
-        <p className='animated' >I'm all about tech, startups, and data. Let's get to work!</p>
+        <div className="animatedtext">
+          <h1>Tate J Stone</h1>
+
+          <p className='animated' >I'm all about tech, startups, and data. Let's get to work!</p>
+        </div>
         <div className="picture">
           <Slider {...settings}>
             <img className='picture1' src={picture1} alt="picture1"/>
