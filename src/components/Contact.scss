@@ -42,3 +42,16 @@
         text-decoration: underline;
     }
 }
+@media screen and (max-width: 500px){
+    .Contact{
+        h1{
+            font-size: 40px;
+        }
+    }
+    .contactoptions{
+        div{
+            font-size: 15px;
+        }
+    }
+    
+}

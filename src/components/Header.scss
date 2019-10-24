@@ -52,3 +52,25 @@
 .tjs{
     border-radius: 50%;
 }
+
+@media screen and (max-width: 850px){
+    .header{
+        font-size: 18px;
+    }
+    .options{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 630px){
+    .header{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px){
+    .options{
+        p{
+
+            color: $dark;
+        }
+    }
+}

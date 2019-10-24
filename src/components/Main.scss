@@ -13,6 +13,7 @@
     justify-content: space-between;
     h1{
         margin: 0 auto;
+        text-align: center;
     }
     .animated{
         border-right: solid 3px $dark;
@@ -53,3 +54,22 @@
     from{border-right-color: $dark;}
     to{border-right-color: transparent;}
   }
+
+
+  @media screen and (max-width: 500px){
+    .main{
+        text-align: center;
+        h1{
+
+            font-size: 40px;
+        }
+        .picture{
+            width: 15rem;
+        }
+        .animated{
+            animation: none;
+            text-align: center;
+            white-space: pre-wrap;
+        }
+    }
+}
