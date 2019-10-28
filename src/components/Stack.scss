@@ -143,3 +143,17 @@
     }
     
 }
+@media screen and (max-width: 500px){
+    .images{
+        width: 90%;
+        div{
+            height: 6rem;
+            width: 6rem;
+        }
+    }
+    .stack{
+        h1{
+            font-size: 40px;
+        }
+    }
+}
