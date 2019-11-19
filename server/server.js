@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(express.static(__dirname + '/../public/build'))
 
 
-let port = 3001;
+let port = 4444;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`)
 })
