@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "main": "server/server.js",
-  "proxy": "http://localhost:8000",
+  "proxy": "http://localhost:4444",
   "private": true,
   "homepage": "http://tjamesstone.github.io/portfolio",
   "dependencies": {
